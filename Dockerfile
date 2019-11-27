@@ -1,6 +1,6 @@
 FROM golang:1.13
 
-ENV PROTOC_VERSION 3.11.0
+ENV PROTOC_VERSION 3.10.1
 ENV PROTOC_URL https://github.com/protocolbuffers/protobuf/releases/download/v${PROTOC_VERSION}/protobuf-all-${PROTOC_VERSION}.tar.gz
 
 ENV SWIFT_VERSION 5.1.2
